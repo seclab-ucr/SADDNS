@@ -33,6 +33,14 @@ Keyu Man, Zhiyun Qian, Zhongjie Wang, Xiaofeng Zheng, Youjun Huang, Haixin Duan
 
 ## How to run
 
+The attack tool is implemented in two languages: **Go** and **C**. 
+
+All files in this repo **except** files in ```/dnsinjector``` belong to **Go** implementation of the attack. This is the major version we maintained and contains many features to facilitate the attack. The author is [Keyu Man](https://github.com/mkyybx).
+
+The **C** version files are in ```/dnsinjector``` and we are giving credits to our collaborator [@wonderqs](https://github.com/wonderqs). The C version is intended for extreme performance and for people who are not familiar with Go.
+
+The following description is for **Go** version only. For C version, please refer to ```dnsinjector/README.md```.
+
 ### Requirements
 
 - An IP-spoofing-capable host (preferably Linux)
