@@ -24,7 +24,7 @@ make
 
 ### Usage
 
-The following executables may be produced after building:
+The following executables will be produced after building:
 
 - attack_forwr (Forwarder attacking tool)
 - attack_recur (Resolver attacking tool)

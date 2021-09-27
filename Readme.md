@@ -35,9 +35,9 @@ Keyu Man, Zhiyun Qian, Zhongjie Wang, Xiaofeng Zheng, Youjun Huang, Haixin Duan
 
 The attack tool is implemented in two languages: **Go** and **C**.
 
-The files in ```/saddns_go``` belong to **Go** implementation of the attack. This is the major version we maintained and contains many features to facilitate the attack. The author is [Keyu Man](https://github.com/mkyybx).
+The files in ```/saddns_go``` belong to **Go** implementation of the attack. This is the major version we maintained and contains many features to facilitate the attack. The author is [Keyu Man](https://github.com/mkyybx). The detailed running instruction can be found at [saddns_go/Readme.md](https://github.com/seclab-ucr/SADDNS/blob/master/saddns_go/Readme.md).
 
-The **C** version files are in ```/saddns_c``` and we are giving credits to our collaborator [@wonderqs](https://github.com/wonderqs). The C version has a better performance and for people who are not familiar with Go.
+The **C** version files are in ```/saddns_c``` and we are giving credits to our collaborator [@wonderqs](https://github.com/wonderqs). The C version has a better performance and for people who are not familiar with Go. The detailed running instruction can be found at [saddns_c/README.md](https://github.com/seclab-ucr/SADDNS/blob/master/saddns_c/README.md).
 
 ## Questions and issues
 

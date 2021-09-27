@@ -18,15 +18,15 @@
 
 1. Compile
 
-    ```go build ucr.edu/saddns```
+    ```go build ucr.edu/saddns```(requires ```gopacket``` and ```libpcap```)
 
 2. Start flooding
 
-    ```./dns_query.sh &```
+    ```./dns_query.sh &```(requires ```hping3```)
     
     Please see the comment in the file for usage.
     
-3. Start attacking
+3. Start attacking (flooding is still in progress)
 
     ```sudo ./saddns [args]```
     
